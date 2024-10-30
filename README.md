@@ -13,18 +13,7 @@ SQL: To query and manage customer and transaction data from the database.
 DAX: Enables dynamic calculations within Power BI.
 
 # 📂 Folder Structure
-CreditCardFinancialDashboard/
-├── data/
-│   ├── cc_add.xlsx
-│   ├── credit_card.xlsx
-│   ├── cust_add.xlsx
-│   ├── customer.xlsx
-│   └── SQL Query - Financial Dashboard Data.sql
-├── reports/
-│   ├── CreditCard Financial Dashboard-Customer.pdf
-│   ├── CreditCard Financial Dashboard-Financial.pdf
-│   └── CreditCardReport.pbix
-└── README.md
+CreditCardFinancialDashboard/ ├── data/ │ ├── cc_add.xlsx # Additional credit card data in XLS format │ ├── credit_card.xlsx # Main credit card data worksheet │ ├── cust_add.xlsx # Additional customer data worksheet │ ├── customer.xlsx # Primary customer data worksheet │ └── SQL Query - Financial Dashboard Data.sql # SQL script for data extraction and analysis ├── reports/ │ ├── CreditCard Financial Dashboard-Customer.pdf # Report focusing on customer insights │ ├── CreditCard Financial Dashboard-Financial.pdf # Report focusing on financial analysis │ └── CreditCardReport.pbix # Power BI report file └── README.md # Project documentation
 
 # ⚙️ Installation & Setup
 Data Preparation: Load the transaction and customer datasets into your SQL database.
